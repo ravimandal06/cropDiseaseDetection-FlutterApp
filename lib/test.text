@@ -1,0 +1,23 @@
+ // Future<void> fetchData() async {
+  //   const String apiUrl = "https://www.fruityvice.com/api/fruit/all";
+  //   final response = await http.get(Uri.parse(apiUrl));
+
+  //   if (response.statusCode == 200) {
+  //     final List<dynamic> data = json.decode(response.body);
+  // setState(() {
+  //   fruitsAndVegetables =
+  //       List<String>.from(data.map((item) => item['name']));
+  // });
+  //   } else {
+  //     print("Failed to fetch data. Status code: ${response.statusCode}");
+  //   }
+  // }
+  // Future<void> loadSelectedFruits() async {
+  // final prefs = await SharedPreferences.getInstance();
+  //   final List<String>? savedFruits = prefs.getStringList('selectedFruits');
+  //   if (savedFruits != null) {
+  //     setState(() {
+  //       selectedFruits = savedFruits;
+  //     });
+  //   }
+  // }
